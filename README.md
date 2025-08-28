@@ -31,7 +31,7 @@ pytest tests/test_employee_flow.py::TestEmployeeFlow::test_employee_flow
 - BASE_URL: url-адрес тестового стенда 
 - USERNAME, PASSWORD: креды юзера, который логинится на стенд
 - HEADLESS: режим без viewport, True или False соотвественно 
-- TIMEOUT: максимальная задержка перед явням ожиданием и т.п.
+- TIMEOUT: максимальная задержка перед явным ожиданием и т.п.
 
 
 7) Также мы можем добавлять флаги, чтобы модифицировать команду запуска:
